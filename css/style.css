@@ -79,7 +79,7 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html, body {width:100%; padding:0; margin:0;}
-body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: 'Teko', sans-serif;background: #fff;color: #666;font-size: 19px;line-height: 1.6em;letter-spacing: .2px;}
+body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: 'Teko', sans-serif;background: rgb(32, 32, 32);color: #666;font-size: 19px;line-height: 1.6em;letter-spacing: .2px;}
 body .wrap-body{}
 
 /* ---------------------------------------------------------------------------- */
@@ -90,7 +90,7 @@ body .wrap-body{}
 #top ul.top-link {margin-top: 10px;}
 
 .link{}
-.link a{display:inline-block;text-decoration:none;letter-spacing:1px; color: #888888;}
+.link a{display:inline-block;text-decoration:none;letter-spacing:1px; color: lime;}
 .link a:hover{color:#fff}
 .link  li:after{content: "-";padding: 0 10px;}
 .link  li:last-child:after{content:'';padding:0px;display:none}
@@ -105,18 +105,18 @@ ul.link li{padding: 0;margin: 0;}
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Search--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-#searchtext input {border: 1px solid #888;color: #fff;display: block;padding: 10px;width: 100%;box-sizing: border-box;font-size: 15px;margin: 0;background-color: transparent;height: 42px;}
+#searchtext input {border: 1px solid black;color: #fff;display: block;padding: 10px;width: 100%;box-sizing: border-box;font-size: 15px;margin: 0;background-color: transparent;height: 42px;}
 #form-container{max-width: 360px;text-align: center;}
 #searchtext {overflow: hidden;}
 
-a.search-submit-button {background: #fff;border-bottom: 1px solid #eeeeee;border-right: 1px solid #eeeeee;border-top: 1px solid #eeeeee;color: #131313;display: block;float: right;padding: 10px;font-size: 17px;text-align: center;width: 45px;box-sizing: border-box;height: 42px;}
+a.search-submit-button {background: rgba(0, 0, 0, 0);border-bottom: 1px solid black;border-right: 1px solid black;border-top: 1px solid black;color: #131313;display: block;float: right;padding: 10px;font-size: 17px;text-align: center;width: 45px;box-sizing: border-box;height: 42px;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Header--------------------------------- */
 /* ---------------------------------------------------------------------------- */
 header{background: #131313;padding: 40px 0 55px;margin-bottom: 70px;}
 
-a.site-branding {text-align: center;color: #888;margin-bottom: 45px;height: auto;padding: 0;display: inline-block;}
+a.site-branding {text-align: center;color: rgb(56, 56, 56);margin-bottom: 45px;height: auto;padding: 0;display: inline-block;}
 .main-header h1.site-title, .main-header .site-title a {letter-spacing: 2px;color: #131313;margin: 0;text-transform: uppercase;font-size: 39px;font-weight: 300;line-height: 1;}
 p.site-description{margin: 0;font-size: 16px;}
 
