@@ -91,11 +91,11 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
 
 .title h1 {
     font-family: Caveat;
-    font-size: 72px;
+    font-size: 100px;
     font-weight: 300;
     line-height: 1.2;
     margin-bottom: 20px;
-    color: #16f34d;
+    color: #bbbbbb;
 }
 
 .slide-text {
@@ -203,6 +203,11 @@ p.site-description{margin: 0;font-size: 16px;}
 #main-content{}
 #main-content .wrap-content{padding: 30px 0;}
 
+/* --- obsah --- */
+.info-server {
+    margin-left: 36px;
+    color: darkgrey;
+}
 
 
 /* ---Article--- */
