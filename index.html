@@ -60,9 +60,9 @@
 					<div class="row">
 						<div class="col-2-3">
 							<ul class="list-inline top-link link">
-								<li><a href="https://discord.gg/aS8GBSYnUb">Discord</a></li>
+								<li><a href="https://discord.gg/aS8GBSYnUb" target="_blank"  rel="noopener noreferrer">Discord</a></li>
 								<li><a href="#" onclick="CopyToClipboard('ip-adress');return false;" >IP adresa</a></li>
-								<li><a href="https://www.twitch.tv/shortymagazine">Twitch</a></li>
+								<li><a href="https://www.twitch.tv/shortymagazine" target="_blank"  rel="noopener noreferrer">Twitch</a></li>
 								<!-- <li><a href="#">Google +</a></li>  -->
 								<!-- <li><a href="#">Pinterest</a></li>  -->
 							</ul>
@@ -98,16 +98,17 @@
 						   <li class="active"><a href='index.html'><span>Domů</span></a></li>
 						   <li class=' has-sub'><a href='#info'><span>Info</span></a>
 							  <ul >
-								 <li class='has-sub'><a href='#'><span>Server</span></a>
+								 <li class='has-sub'><a href='#server'><span>Server</span></a>
 									<ul>
-									   <li><a href='#'><span>IP adresa</span></a></li>
-									   <li class='last'><a href='#'><span>Verze</span></a></li>
+									   <li><a href='#ip'><span>IP adresa</span></a></li>
+									   <li><a href='#verze'><span>Verze</span></a></li>
+									   <li class='last'><a href='#wlist'><span>Whitelist</span></a></li>
 									</ul>
 								 </li>
-								 <li class='has-sub'><a href='#'><span>VIP</span></a>
+								 <li class='has-sub'><a href='#prispevek'><span>VIP</span></a>
 									<ul>
-									   <li><a href='#'><span>Sponzor</span></a></li>
-									   <li class='last'><a href='#'><span>VIP</span></a></li>
+									   <li><a href='#sponzor'><span>Sponzor</span></a></li>
+									   <li class='last'><a href='#vip'><span>VIP</span></a></li>
 									</ul>
 								 </li>
 							  </ul>
@@ -128,7 +129,7 @@
 					<div class="wrap-content">
 						<div class="zerogrid">
 							
-							<div class="slide-text">
+							<div id="server" class="slide-text" style="margin-left: -20px;">
 								<div class="static-txt"></div>
 								<ul class="dynamic-txts">
 									<li><span>DreaMCraft</span></li>
@@ -141,12 +142,87 @@
 								<p>
 									Minecraftový vanila survilal server. Můžete obchodovat s ostatními a podporovat ekonomiku. Přijď si zahrát, ať můžeme spolčně vytvářet užasné projekty.
 								</p>
-							</div> 
+							
+								<h2 id="ip" style="margin-left: 15px;">IP adresa: </h2>
+								<p>
+									<span class="t-center" id="ip-adress" onclick="CopyToClipboard('ip-adress');return false;" >mc.dreamcraft.cz</span> 
+								</p>
+
+								<h2 id="verze" style="margin-left: 15px;" >Verze:</h2>
+								<p>
+									<span id="ip-adress" class="t-center" style="width: 15%;">1.18.2</span>
+								</p>
+
+								<h2 id="wlist" style="margin-left: 15px;" >Whitelist</h2>
+								<p>
+									Pokud chce pozádat o přidání na Whitelist, vytvořte si <b>ticket</b>
+									 na discordu v kanále 
+									 <a href="https://discord.com/channels/1003316477358776451/1003316478747091002" target="_blank"  rel="noopener noreferrer" >
+										<b>#📝žádost-o-whitelist📝-a-ticket</b>
+									</a>
+									<br>
+									Tickety slouží i k nahlašování chyb a jiným.
+								</p>
+							</div>
+							<div>
+								<h1 id="prispevek">Příspěvky</h1>
+								<p>
+									<!-- TODO --> **peníze jdou přímo hostingu**  
+								</p>
+
+								<h2 id="sponzor" style="margin-left: 15px;" >Sponzor</h2>
+								<p>
+									<!-- TODO --> **výhody**  
+								</p>
+
+								<h2 id="vip" style="margin-left: 15px;" >VIP</h2>
+								<p>
+									<!-- TODO --> **výhody**  
+								</p>
+
+								<h3 style="margin-left: 22px;" >Možnosti výhod</h3>
+								<p>
+									<!-- TODO --> **tabulka cen**  
+								</p>
+								<p>
+									<!-- TODO --> **tabuka provize**  
+									<table>
+										<tr>
+											<th>Platební metoda</th>
+											<th>Poplatek</th>
+										</tr>
+										<tr>
+											<th>Platební karta</th>
+											<th>Bez poplatku</th>
+										</tr>
+										<tr>
+											<th>Bankovní převod</th>
+											<th>Bez poplatku</th>
+										</tr>
+										<tr>
+											<th>PayPal</th>
+											<th>10 Kč / 0.4 Euro</th>
+										</tr>
+										<tr>
+											<th>M-Platba</th>
+											<th>15%</th>
+										</tr>
+										<tr>
+											<th>SMS</th>
+											<th><i>nevíhodné (na dotaz)</i></th>
+										</tr>
+									</table>
+
+								</p>
+								<button title="Platební brána" class="btn btn-primary" onclick="window.open('https://platby.hostify.cz/13967','_blank')">
+									<span>💰 Chci přispět</span>
+								</button>
+							</div>
 							<span class="t-center" style="color: darkgrey;">
 								<h1>Hups!</h1>
 								<h2>Obsah této stánky pro Vás připravujeme</h2>
 								<h3>Přejeme Vám příjemný den!</h3>
-								Zatím se můžete napojit na <a href="https://discord.gg/aS8GBSYnUb">Discord <i style='font-size:24px' class="fa fa-headphones"></i></a>.
+								Zatím se můžete napojit na <a href="https://discord.gg/aS8GBSYnUb" target="_blank"  rel="noopener noreferrer">Discord <i style='font-size:24px' class="fa fa-headphones"></i></a>.
 								<br>
 								<br>
 								<br>
@@ -190,10 +266,10 @@
 			<div class="zerogrid wrap-footer">
 				<div class="row">
 					<div class="bottom-social">
-						<a href="#"><i class="fa fa-twitch"></i></a>
-						<a href="#"><i class="fa fa-youtube"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa"></i></a>
+						<a href="https://www.twitch.tv/shortymagazine" target="_blank"  rel="noopener noreferrer"><i class="fa fa-twitch"></i></a>
+						<a href="https://www.youtube.com/channel/UCDtYdhbmX9jMndPLjvQ6mdg" target="_blank"  rel="noopener noreferrer"><i class="fa fa-youtube"></i></a>
+						<a href="https://www.instagram.com/_endy_s_/" target="_blank"  rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+						
 					</div>
 				</div>
 				<div class="copyright">
