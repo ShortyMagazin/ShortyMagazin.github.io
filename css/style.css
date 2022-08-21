@@ -212,9 +212,15 @@ p {
     font-size: 25px;
 }
 
+ul {
+    margin-left: 36px;
+    color: darkgrey;
+    font-size: 25px;
+}
+
 #ip-adress {
     display: block;
-    width: 30%;
+    width: 350px;
     border-radius: 10px;
     background-color: #131313;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -225,6 +231,24 @@ p {
     color: #16f34d;
 }
 
+.command {
+    width: 175px;
+    border-radius: 5px;
+    background-color: #131313;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 20px 100px 20px 100px;
+    display: block;
+    align-items: center;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #16f34d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
 /* ---Article--- */
 .single-post{}
