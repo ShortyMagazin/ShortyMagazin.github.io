@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="cs"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>DreaMCraft</title>
+    <meta name="description" content="Webové stánky minecraftového serveru. Survival server, možnost obchodovat a společně vytvářet projekty.">
+    <meta name="keywords" content="minecraft, survival, server, minecraft server, 1.18.2, hry, multiplayer, Czech, Slovakia, DreamCraft, craft">
+    <meta name="author" content="Jan Škrabal">
+	<link rel="icon" href="images/shorty.png" type="image/png">
+
+	<meta name="google-site-verification" content="nWjayWMV6zK71s3uQ7IqVLmZZXM6E0eiaspQEUXzXaE" />
+	
+    <!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+	================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	
+	<link rel="stylesheet" href="css/menu.css">
+	<script src="js/jquery1111.min.js" type="text/javascript"></script>
+	<script src="js/script.js"></script>
+	
+	<!-- Owl Carousel Assets -->
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/Items/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+	<div class="wrap-body">
+		
+		<header class="main-header" style="font-family: sans-serif; -webkit-text-size-adjust: 100%; font-size: 16px; box-sizing: border-box; table-layout: fixed; height: 100%; left: 0;  top: 0; width: 100%; background-size: cover; background-position: center center; background-image: url('images/uvod.png'); transform: translate3d(0px, 0px, 0px);">
+			<div class="zerogrid">
+				<!--Top-->
+				<div id="top">
+					<div class="row">
+						<div class="col-2-3">
+							<ul class="list-inline top-link link">
+								<li><a href="https://discord.gg/aS8GBSYnUb" target="_blank"  rel="noopener noreferrer">Discord</a></li>
+								<li><a href="#" onclick="CopyToClipboard('ip-adress');return false;" >IP adresa</a></li>
+								<li><a href="https://www.twitch.tv/shortymagazine" target="_blank"  rel="noopener noreferrer">Twitch</a></li>
+								<!-- <li><a href="#">Google +</a></li>  -->
+								<!-- <li><a href="#">Pinterest</a></li>  -->
+							</ul>
+						</div>
+						<div class="col-1-3">
+							<div class="top-search">
+								<form id="form-container" action="">
+									<!--<input type="submit" id="searchsubmit" value="" />-->
+									<a class="search-submit-button" href="javascript:void(0)">
+										<i class="fa fa-search"></i>
+									</a>
+									<div id="searchtext">
+										<input type="text" id="s" name="s" placeholder="Hledej">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="t-center">
+					<!--<img src="images/uvod.png" width="maximum-scale" alt="Minecraft pozadí"> -->
+					
+					<div class="title">
+						<h1>DreaMCraft</h1>
+					</div>
+					<!-- <div id="app">
+						<span id="ityped"></span>
+					</div> -->
+					
+					<!-- Menu-main -->
+					<div id='cssmenu' class="align-center">
+						<ul>
+						   <li class="active"><a href='index.html'><span>Domů</span></a></li>
+						   <li class=' has-sub'><a href='#info'><span>Info</span></a>
+							  <ul >
+								 <li class='has-sub'><a href='#server'><span>Server</span></a>
+									<ul>
+									   <li><a href='#ip'><span>IP adresa</span></a></li>
+									   <li><a href='#verze'><span>Verze</span></a></li>
+									   <li class='last'><a href='#wlist'><span>Whitelist</span></a></li>
+									</ul>
+								 </li>
+								 <li class='has-sub'><a href='#prispevek'><span>VIP</span></a>
+									<ul>
+									   <li><a href='#sponzor'><span>Sponzor</span></a></li>
+									   <li class='last'><a href='#vip'><span>VIP</span></a></li>
+									</ul>
+								 </li>
+							  </ul>
+						   </li>
+						   <!-- <li><a href='single.html'><span>About</span></a></li> -->
+						   <!-- <li><a href='archive.html'><span>Blog</span></a></li> -->
+						   <li class='last'><a title="Již brzy" href='#již_brzy'><span>Ekonomika</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!--////////////////////////////////////Container-->
+		<section id="container" >
+			<div id="info" class="wrap-container">
+				<div id="main-content">
+					<div class="wrap-content">
+						<div class="zerogrid">
+							
+                            <span class="t-center" style="color: darkgrey;">
+                                <h1>404 Chyba!</h1>
+								<h1>Hups!</h1>
+								<h2>Zde nic není.</h2>
+								<h3><a title="domů" href="/index.html">Zpět domů</a></h3>
+                                <h4>Pokud je to chyba nahlas nám to na discordu. Děkujeme</h4>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+
+
+
+
+
+
+
+							</span>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--////////////////////////////////////Footer-->
+		<footer>
+			<div class="zerogrid wrap-footer">
+				<div class="row">
+					<div class="bottom-social">
+						<a href="https://www.twitch.tv/shortymagazine" target="_blank"  rel="noopener noreferrer"><i class="fa fa-twitch"></i></a>
+						<a href="https://www.youtube.com/channel/UCDtYdhbmX9jMndPLjvQ6mdg" target="_blank"  rel="noopener noreferrer"><i class="fa fa-youtube"></i></a>
+						<a href="https://www.instagram.com/_endy_s_/" target="_blank"  rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+						
+					</div>
+				</div>
+				<div class="copyright">
+					Copyright @ - Designed by <a href="https://www.zerotheme.com">ZEROTHEME</a>
+					<br>
+					Vytvořil  <a href="https://robot7769.github.io/" target="_blank"  rel="noopener noreferrer">Robot7769 <i class="fa fa-github"></i></a>
+				</div>
+			</div>
+		</footer>
+		<!-- carousel -->
+		<script src="owl-carousel/owl.carousel.js"></script>
+		<script>
+		$(document).ready(function() {
+		  $("#owl-slide").owlCarousel({
+			autoPlay: 3000,
+			items : 1,
+			itemsDesktop : [1199,1],
+			itemsDesktopSmall : [979,1],
+			itemsTablet : [768, 1],
+			itemsMobile : [479, 1],
+			navigation: true,
+			navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
+			pagination: false
+		  });
+		});
+		</script>
+	</div>
+</body>
+</html>
